@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/photoCategory"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/news_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/allCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All News"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/photoCategory" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/national"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="National"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/allCategories" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/national" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sport"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/business" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/world"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="World"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/sport" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/politics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Politics"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/world" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
